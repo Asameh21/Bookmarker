@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f1f1f1;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 6px 10px;
+    margin: 5px 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#saveBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#clearBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.deleteBtn {
+    background-color: #999;
+    color: white;
+    float: right;
+}
+
+.editable {
+    outline: none;
+}
+
+.followup-alert {
+    background-color: #ff4d4d !important;
+    color: white;
+    font-weight: bold;
+}
